@@ -11,9 +11,14 @@
 // });
 
 
-// imports the 'readFile' and 'readFileSync' functions
+// // imports the 'readFile' and 'readFileSync' functions
+// // from the Node.js fs (file system) module
+// const {readFile, readFileSync} = require('node:fs');
+
+// By commonJS style
+// imports the 'readFile' function for non-blocking
 // from the Node.js fs (file system) module
-const {readFile, readFileSync} = require('node:fs');
+const {readFile} = require('node:fs');
 
 // calls the readFile function: read asynchronously. (path, encoding, callback function)
 readFile('./sample.txt', 'utf-8', (err, data) => {
