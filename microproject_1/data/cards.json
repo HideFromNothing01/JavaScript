@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Poring Card",
+    "description": "A cute card with a bouncing pink slime. Grants small bonus to HP.",
+    "rarity": "Common",
+    "effect": "Increases HP by 10%"
+  },
+  {
+    "id": 2,
+    "name": "Baphomet Card",
+    "description": "A legendary card with dark power. Allows the wielder to hit multiple targets.",
+    "rarity": "Legendary",
+    "effect": "Grants AoE attack damage"
+  },
+  {
+    "id": 3,
+    "name": "Golden Thief Bug Card",
+    "description": "This card has powerful magical defenses.",
+    "rarity": "Epic",
+    "effect": "Nullifies magic attacks"
+  },
+  {
+    "id": 4,
+    "name": "Drake Card",
+    "description": "A pirate's favorite. Strong against large foes.",
+    "rarity": "Rare",
+    "effect": "Increases damage against large monsters by 30%"
+  },
+  {
+    "id": 5,
+    "name": "Orc Hero Card",
+    "description": "Grants incredible strength and physical defense.",
+    "rarity": "Epic",
+    "effect": "Reduces stun effect by 50%"
+  }
+]
